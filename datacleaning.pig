@@ -2,6 +2,7 @@
 
 --To load data into pig
 --Using piggybank.jar file to store data in 'CSVExcelStorage' (data with multiple delimiters) 
+--REGISTER /usr/lib/pig/piggybank.jar (register piggybank jar)
 loadData = Load '/user/jayamnithin27/pigscripttest/' USING org.apache.pig.piggybank.storage.CSVExcelStorage(',');     
 
 --Cleaning Dataset
