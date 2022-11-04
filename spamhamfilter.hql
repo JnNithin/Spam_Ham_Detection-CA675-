@@ -1,3 +1,4 @@
+--hive -f spamhamfilter.hql
 --Create a database
 Create database spamandham;
 
